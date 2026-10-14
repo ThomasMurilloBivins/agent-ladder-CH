@@ -1,0 +1,19 @@
+Oct 13 09:58:00 web01 sshd[1001]: Accepted publickey for kali from 10.10.0.5 port 44002 ssh2
+Oct 13 10:00:01 web01 sshd[1010]: Failed password for invalid user admin from 203.0.113.45 port 51514 ssh2
+Oct 13 10:00:02 web01 sshd[1011]: Failed password for invalid user admin from 203.0.113.45 port 51516 ssh2
+Oct 13 10:00:03 web01 sshd[1012]: Failed password for invalid user test from 203.0.113.45 port 51518 ssh2
+Oct 13 10:00:04 web01 sshd[1013]: Failed password for invalid user oracle from 203.0.113.45 port 51520 ssh2
+Oct 13 10:00:05 web01 sshd[1014]: Failed password for root from 203.0.113.45 port 51522 ssh2
+Oct 13 10:00:06 web01 sshd[1015]: Failed password for root from 203.0.113.45 port 51524 ssh2
+Oct 13 10:00:07 web01 sshd[1016]: Failed password for root from 203.0.113.45 port 51526 ssh2
+Oct 13 10:00:08 web01 sshd[1017]: Failed password for root from 203.0.113.45 port 51528 ssh2
+Oct 13 10:00:09 web01 sshd[1018]: Failed password for root from 203.0.113.45 port 51530 ssh2
+Oct 13 10:00:10 web01 sshd[1019]: Failed password for root from 203.0.113.45 port 51532 ssh2
+Oct 13 10:00:11 web01 sshd[1020]: Failed password for root from 203.0.113.45 port 51534 ssh2
+Oct 13 10:00:12 web01 sshd[1021]: Accepted password for root from 203.0.113.45 port 51536 ssh2
+Oct 13 10:00:12 web01 sshd[1021]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Oct 13 10:01:30 web01 useradd[1101]: new user: name=backup2, UID=1002, GID=1002, home=/home/backup2, shell=/bin/bash
+Oct 13 10:01:45 web01 usermod[1105]: add 'backup2' to group 'sudo'
+Oct 13 10:03:02 web01 sshd[1021]: pam_unix(sshd:session): session closed for user root
+Oct 13 10:05:10 web01 sshd[1200]: Failed password for invalid user pi from 198.51.100.7 port 40100 ssh2
+Oct 13 10:05:40 web01 sshd[1201]: Failed password for invalid user pi from 198.51.100.7 port 40102 ssh2
