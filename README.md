@@ -30,9 +30,9 @@ your own.
    The hook is a bash script, so on Windows use WSL.
 4. Clone this repo:
    ```bash
-   git clone https://github.com/ThomasMurilloBivins/agent-ladder.git
+   git clone https://github.com/ThomasMurilloBivins/agent-ladder-CH.git
    ```
-5. In VS Code, open the project root: **File → Open Folder… → select `agent-ladder`**.
+5. In VS Code, open the project root: **File → Open Folder… → select `agent-ladder-CH`**.
    The project root is the folder that directly contains `.claude/` and `AGENTS.md`.
    Open that folder itself, not its parent and not a subfolder.
 6. If you use Agent Flow, open it first: **Ctrl+Shift+P → "Agent Flow: Open Agent Flow"**.
@@ -92,7 +92,7 @@ off permission prompts.
 
 **Try it:** ask *"Run: rm -rf /tmp/test"*. It is blocked, even though the folder doesn't exist.
 
-If it doesn't block: run `chmod +x .claude/hooks/guard.sh`, check that `which jq` prints a
+If it doesn't block: check that `which jq` prints a
 path, run `jq . .claude/settings.json` to validate the JSON, then reload the window.
 
 ## Rung 6: Multi-agent (orchestrator)
@@ -116,7 +116,7 @@ plugin **marketplace** (see `.claude-plugin/marketplace.json`), so you can use t
 any project:
 
 ```
-/plugin marketplace add ThomasMurilloBivins/agent-ladder
+/plugin marketplace add ThomasMurilloBivins/agent-ladder-CH
 /plugin install cyberhawks-ladder@cyberhawks
 ```
 

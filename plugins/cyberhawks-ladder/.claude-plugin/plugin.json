@@ -1,0 +1,8 @@
+{
+  "name": "cyberhawks-ladder",
+  "description": "Log-triage skill, recon/web/notes subagents and a guard hook for authorized security labs",
+  "version": "1.0.0",
+  "author": {
+    "name": "CyberHawks"
+  }
+}
