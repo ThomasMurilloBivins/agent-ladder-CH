@@ -1,0 +1,14 @@
+{
+  "name": "cyberhawks",
+  "description": "CyberHawks (University of North Georgia) agent ladder plugins",
+  "owner": {
+    "name": "CyberHawks"
+  },
+  "plugins": [
+    {
+      "name": "cyberhawks-ladder",
+      "source": "./plugins/cyberhawks-ladder",
+      "description": "Log-triage skill, recon/web/notes subagents and a guard hook for authorized security labs"
+    }
+  ]
+}
